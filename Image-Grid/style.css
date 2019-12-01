@@ -1,0 +1,23 @@
+img {
+    width: 30%;
+    height: 150px;
+    /* 100% webpage - (3images/rowx30%) = 10
+    10% /   margin (2 for each image in a row)*/
+    margin: 1.666%;
+    float: right;
+}
+p {
+    width: 30%;
+    padding-bottom: 10px;
+    margin-left: 1.66%;
+
+    font-family: 'Satisfy', cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+    border-bottom: 2px solid #f1f1f1;
+}
+
+
+
