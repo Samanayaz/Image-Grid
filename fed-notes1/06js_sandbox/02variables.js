@@ -80,3 +80,14 @@ console.log(numbers)
 numbers.push(6);
 console.log(numbers); 
 
+
+pract
+const person = { 
+  name = 'sara'
+  age = '44'
+}
+console.log(name);
+
+const numbers = {1,2,3,4}
+console.log(numbers)
+
