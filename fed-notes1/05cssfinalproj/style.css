@@ -31,6 +31,7 @@ p {
     text-decoration: none;
     padding: 1em 2em;
     margin: .5em 0;
+    border: 1px solid #666;
 
 }
 
@@ -41,7 +42,7 @@ p {
 
 /* header showcase */
 #showcase {
-    min-height: 500px;
+    min-height: 450px;
     color: #fff;
     text-align: center;
 
@@ -77,7 +78,7 @@ p {
     padding-bottom: 2em;
 }
 
-/* section c */
+/* section b */
 #section-b {
     padding: 2em 1em 1em;
 }
@@ -95,7 +96,7 @@ p {
 }
 
 .card-content {
-    padding: 1em;
+    padding: 1.5em;
 }
 
 /* section c */
@@ -128,12 +129,14 @@ p {
 }
 
 @media (min-width: 700px) {
-    .grid{
+    .grid {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto,25em)) 1fr;
     }
 
-    #sectopn-a .content-text {
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
         padding-top: 0;
     }
 
@@ -142,7 +145,8 @@ p {
         
     }
 
-    .box, #main-footer div {
+    .box,
+    #main-footer div {
        grid-column: span 2;
     }
 
